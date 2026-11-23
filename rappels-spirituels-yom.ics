@@ -498,4 +498,32 @@ DESCRIPTION:Rappel : Réunion avec sheikh Kadjoura
 TRIGGER:-PT12H30M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:evt-20261211-presentation-projets@etudes.local
+DTSTAMP:20261123T233443Z
+DTSTART;TZID=Europe/Paris:20261211T210000
+DTEND;TZID=Europe/Paris:20261211T235900
+SUMMARY:Présentation des projets & Ateliers croisés
+DESCRIPTION:une alerte le Lundi 7 à 9h\, une autre alerte le Jeudi 10 à 9
+ h
+LOCATION:Mosquée
+CATEGORIES:Réunion Projet
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Présentation des projets & Ateliers croisés
+TRIGGER:-PT27H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Présentation des projets & Ateliers croisés
+TRIGGER:-PT108H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Présentation des projets & Ateliers croisés
+TRIGGER:-PT36H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

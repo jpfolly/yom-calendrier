@@ -28,6 +28,7 @@ uv run --no-project --python 3.12 --with icalendar --with pyyaml --with pytest p
   debut: 2026-09-14 20:00               # heure de Paris
   fin: 2026-09-14 21:00
   alerte: veille 18:00                  # ou "jour_meme 09:00" ou "2026-09-13 18:00"
+                                        # plusieurs alertes : alerte: [veille 18:00, '2026-12-07 09:00']
   alerte_texte: '...'                   # optionnel, défaut « Rappel : <titre> »
   lieu: '...'                           # optionnel (champ LOCATION de l'événement)
   description: '...'                    # optionnel

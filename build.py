@@ -112,10 +112,11 @@ def event_lines(ev):
     if ev.get("categorie"):
         lines.append(f"CATEGORIES:{escape(ev['categorie'])}")
     lines += ["STATUS:CONFIRMED", f"TRANSP:{'TRANSPARENT' if allday else 'OPAQUE'}"]
-    if ev.get("alerte"):
+    alertes = ev.get("alerte") or []
+    for alerte in [alertes] if isinstance(alertes, str) else alertes:  # une ou plusieurs
         # différence en temps réel (UTC) : tient compte du passage heure d'été/hiver
         # (même tzinfo => Python soustrait en heure murale, d'où le passage par UTC)
-        trigger = (parse_alert(ev["alerte"], start.date()).astimezone(timezone.utc)
+        trigger = (parse_alert(alerte, start.date()).astimezone(timezone.utc)
                    - start.astimezone(timezone.utc))
         texte = ev.get("alerte_texte") or f"Rappel : {titre}"
         lines += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{escape(texte)}",

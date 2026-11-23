@@ -53,8 +53,9 @@ def test_structure(raw, events):
     assert len(vevents) == len(events)
     uids = [str(e["UID"]) for e in vevents]
     assert len(set(uids)) == len(uids)
-    for e in vevents:
-        assert len(e.walk("VALARM")) == 1, e["UID"]
+    for e, src in zip(vevents, events):
+        n = src.get("alerte") or []
+        assert len(e.walk("VALARM")) == (1 if isinstance(n, str) else len(n)) >= 1, e["UID"]
         assert e["STATUS"] == "CONFIRMED" and "DTSTAMP" in e
     if any(isinstance(e["DTSTART"].dt, datetime) for e in vevents):
         assert cal.walk("VTIMEZONE")
@@ -79,6 +80,14 @@ def test_trigger_handles_dst():
     ev = {"id": "x", "titre": "t", "debut": "2026-10-26 20:00", "fin": "2026-10-26 21:00",
           "alerte": "2026-10-24 18:00", "dtstamp": "20260101T000000Z"}
     assert "TRIGGER:-PT51H" in build.event_lines(ev)
+
+
+def test_several_alerts():
+    ev = {"id": "x", "titre": "t", "debut": "2026-12-11 21:00", "fin": "2026-12-11 23:59",
+          "alerte": ["veille 18:00", "2026-12-07 09:00"], "dtstamp": "20260101T000000Z"}
+    lines = build.event_lines(ev)
+    assert lines.count("BEGIN:VALARM") == 2
+    assert "TRIGGER:-PT27H" in lines and "TRIGGER:-PT108H" in lines
 
 
 def test_lieu_becomes_location():
