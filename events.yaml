@@ -205,3 +205,28 @@ evenements:
   fin: 2026-10-17 20:00
   alerte: veille 18:00
   dtstamp: 20261010T000000Z
+- id: evt-20261129-seminaire-ustadh-nabil@etudes.local
+  titre: 'Ustadh Nabil : Bien comprendre pour mieux agir'
+  categorie: Séminaire
+  journee_entiere: true
+  du: '2026-11-29'
+  au: '2026-11-29'
+  description: 'Face au contexte actuel et aux nombreux bouleversements de notre société, une question mérite d’être posée : quelle place devons-nous prendre en tant que musulmans ?'
+  alerte: veille 09:00
+  dtstamp: 20261123T232956Z
+- id: evt-20261129-film-naza@etudes.local
+  titre: Visionnage du Film NAZA
+  categorie: Activité
+  lieu: Chez Jean-Paul
+  debut: '2026-11-29 20:00'
+  fin: '2026-11-29 23:59'
+  alerte: veille 18:00
+  dtstamp: 20261123T232956Z
+- id: evt-20261204-reunion-sheikh-kadjoura@etudes.local
+  titre: Réunion avec sheikh Kadjoura
+  categorie: Réunion avec les shouyoukh
+  lieu: Chez Wissem
+  debut: '2026-12-04 21:30'
+  fin: '2026-12-04 23:59'
+  alerte: jour_meme 09:00
+  dtstamp: 20261123T232956Z

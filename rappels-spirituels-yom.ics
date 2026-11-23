@@ -448,4 +448,54 @@ DESCRIPTION:Rappel : Rencontre Mensuelle : Du Coran récité au Coran vécu
 TRIGGER:-PT25H15M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:evt-20261129-seminaire-ustadh-nabil@etudes.local
+DTSTAMP:20261123T232956Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ustadh Nabil : Bien comprendre pour mieux agir
+DESCRIPTION:Face au contexte actuel et aux nombreux bouleversements de notr
+ e société\, une question mérite d’être posée : quelle place devons-
+ nous prendre en tant que musulmans ?
+CATEGORIES:Séminaire
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Ustadh Nabil : Bien comprendre pour mieux agir
+TRIGGER:-PT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-20261129-film-naza@etudes.local
+DTSTAMP:20261123T232956Z
+DTSTART;TZID=Europe/Paris:20261129T200000
+DTEND;TZID=Europe/Paris:20261129T235900
+SUMMARY:Visionnage du Film NAZA
+LOCATION:Chez Jean-Paul
+CATEGORIES:Activité
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Visionnage du Film NAZA
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:evt-20261204-reunion-sheikh-kadjoura@etudes.local
+DTSTAMP:20261123T232956Z
+DTSTART;TZID=Europe/Paris:20261204T213000
+DTEND;TZID=Europe/Paris:20261204T235900
+SUMMARY:Réunion avec sheikh Kadjoura
+LOCATION:Chez Wissem
+CATEGORIES:Réunion avec les shouyoukh
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel : Réunion avec sheikh Kadjoura
+TRIGGER:-PT12H30M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
