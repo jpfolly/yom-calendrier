@@ -29,6 +29,7 @@ uv run --no-project --python 3.12 --with icalendar --with pyyaml --with pytest p
   fin: 2026-09-14 21:00
   alerte: veille 18:00                  # ou "jour_meme 09:00" ou "2026-09-13 18:00"
   alerte_texte: '...'                   # optionnel, défaut « Rappel : <titre> »
+  lieu: '...'                           # optionnel (champ LOCATION de l'événement)
   description: '...'                    # optionnel
   dtstamp: 20260914T000000Z             # mettre l'heure UTC actuelle à chaque création/modif
 # Journée entière : journee_entiere: true, du: 'AAAA-MM-JJ', au: 'AAAA-MM-JJ' (dernier jour INCLUS),

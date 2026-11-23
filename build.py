@@ -107,6 +107,8 @@ def event_lines(ev):
     lines.append(f"SUMMARY:{escape(titre)}")
     if ev.get("description"):
         lines.append(f"DESCRIPTION:{escape(ev['description'])}")
+    if ev.get("lieu"):
+        lines.append(f"LOCATION:{escape(ev['lieu'])}")
     if ev.get("categorie"):
         lines.append(f"CATEGORIES:{escape(ev['categorie'])}")
     lines += ["STATUS:CONFIRMED", f"TRANSP:{'TRANSPARENT' if allday else 'OPAQUE'}"]

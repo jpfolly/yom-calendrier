@@ -81,6 +81,15 @@ def test_trigger_handles_dst():
     assert "TRIGGER:-PT51H" in build.event_lines(ev)
 
 
+def test_lieu_becomes_location():
+    ev = {"id": "x", "titre": "t", "debut": "2026-10-26 20:00", "fin": "2026-10-26 21:00",
+          "lieu": "Mosquée, 12 rue de l'Exemple; Paris", "dtstamp": "20260101T000000Z"}
+    ics = ("BEGIN:VCALENDAR\r\nVERSION:2.0\r\n" + "\r\n".join(build.event_lines(ev))
+           + "\r\nEND:VCALENDAR\r\n").encode()
+    loc = icalendar.Calendar.from_ical(ics).walk("VEVENT")[0]["LOCATION"]
+    assert str(loc) == "Mosquée, 12 rue de l'Exemple; Paris"
+
+
 def _snapshot(ics_bytes):
     """Contenu effectif par UID, dont l'heure réelle de l'alerte."""
     out = {}
