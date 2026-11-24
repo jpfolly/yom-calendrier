@@ -63,3 +63,10 @@ Quand il dit « traite les rappels en attente » :
 2. Si une info manque ou est ambiguë, poser la question. Sinon suivre le workflow ci-dessus
    (avant/après, build, tests, commit, push, vérif URL).
 3. Après le push, passer chaque ligne traitée à `statut: "ajoute"` (`update`, avec `if_version`).
+
+## Modèle « Jours Blancs » (à reproduire à l'identique)
+Journée entière, catégorie `Jours Blancs`, `id: evt-AAAAMMJJ-jours-blancs@etudes.local`,
+titre `Jours Blancs : Jeûnez !`, description `« Jeûner trois jours de chaque mois équivaut à
+jeûner toute l'année. » AL-BUKHARI`, `alerte: veille 15:00`,
+`alerte_texte: Rappel : Jours Blancs commencent demain`. Modèle : l'événement du 2026-09-24.
+Dates : https://www.guide-islam.com/fr/calendrier-jours-blancs/ (approximatives, 13-14-15 du mois hégirien).

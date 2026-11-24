@@ -516,18 +516,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:evt-20261123-jours-blancs@etudes.local
-DTSTAMP:20261124T124058Z
+DTSTAMP:20261124T124331Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261126
-SUMMARY:Il faut jeûner!
-DESCRIPTION:"Le jeûne de 3 jours chaque mois équivaut au jeûne de toute 
- l'année" Sahih Al-Bukhari
+SUMMARY:Jours Blancs : Jeûnez !
+DESCRIPTION:« Jeûner trois jours de chaque mois équivaut à jeûner tout
+ e l'année. » AL-BUKHARI
 CATEGORIES:Jours Blancs
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Rappel : Il faut jeûner!
+DESCRIPTION:Rappel : Jours Blancs commencent demain
 TRIGGER:-PT9H
 END:VALARM
 END:VEVENT

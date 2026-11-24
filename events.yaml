@@ -239,14 +239,15 @@ evenements:
   alerte: '2026-12-07 09:00'
   dtstamp: 20261123T233805Z
 - id: evt-20261123-jours-blancs@etudes.local
-  titre: Il faut jeûner!
+  titre: 'Jours Blancs : Jeûnez !'
   categorie: Jours Blancs
   journee_entiere: true
   du: '2026-11-23'
   au: '2026-11-25'
-  description: '"Le jeûne de 3 jours chaque mois équivaut au jeûne de toute l''année" Sahih Al-Bukhari'
+  description: '« Jeûner trois jours de chaque mois équivaut à jeûner toute l''année. » AL-BUKHARI'
   alerte: veille 15:00
-  dtstamp: 20261124T124058Z
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124331Z
 - id: evt-20261222-jours-blancs@etudes.local
   titre: 'Jours Blancs : Jeûnez !'
   categorie: Jours Blancs
