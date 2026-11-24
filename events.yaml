@@ -238,3 +238,142 @@ evenements:
   fin: '2026-12-11 23:59'
   alerte: '2026-12-07 09:00'
   dtstamp: 20261123T233805Z
+- id: evt-20261123-jours-blancs@etudes.local
+  titre: Il faut jeûner!
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2026-11-23'
+  au: '2026-11-25'
+  description: '"Le jeûne de 3 jours chaque mois équivaut au jeûne de toute l''année" Sahih Al-Bukhari'
+  alerte: veille 15:00
+  dtstamp: 20261124T124058Z
+- id: evt-20261222-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2026-12-22'
+  au: '2026-12-24'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270121-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-01-21'
+  au: '2027-01-23'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270220-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-02-20'
+  au: '2027-02-22'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270321-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-03-21'
+  au: '2027-03-23'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270420-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-04-20'
+  au: '2027-04-22'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270519-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-05-19'
+  au: '2027-05-21'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270618-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-06-18'
+  au: '2027-06-20'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270717-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-07-17'
+  au: '2027-07-19'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270815-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-08-15'
+  au: '2027-08-17'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20270914-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-09-14'
+  au: '2027-09-16'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20271013-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-10-13'
+  au: '2027-10-15'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20271112-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-11-12'
+  au: '2027-11-14'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
+- id: evt-20271211-jours-blancs@etudes.local
+  titre: 'Jours Blancs : Jeûnez !'
+  categorie: Jours Blancs
+  journee_entiere: true
+  du: '2027-12-11'
+  au: '2027-12-13'
+  description: « Jeûner trois jours de chaque mois équivaut à jeûner toute l'année. » AL-BUKHARI
+  alerte: veille 15:00
+  alerte_texte: 'Rappel : Jours Blancs commencent demain'
+  dtstamp: 20261124T124058Z
