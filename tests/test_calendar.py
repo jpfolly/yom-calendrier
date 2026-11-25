@@ -131,6 +131,8 @@ def test_non_regression_vs_reference(raw):
 
 # UID de la référence modifiés ou supprimés volontairement depuis la v8.
 EXPECTED_CHANGES = {
+    "evt-20261214-programme@etudes.local",
+    "evt-20270111-programme@etudes.local",
     "evt-20261130-programme@etudes.local",
     "evt-20261207-programme@etudes.local",
     "evt-20261221-programme@etudes.local",

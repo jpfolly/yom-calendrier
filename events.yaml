@@ -80,66 +80,66 @@ evenements:
 - id: evt-20261130-programme@etudes.local
   titre: 'Tadabbur : Sourate An-Nisa'''
   categorie: Tadabbur Coran
-  debut: 2026-11-30 20:00
-  fin: 2026-11-30 21:00
+  debut: 2026-11-30 22:30
+  fin: 2026-11-30 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20261207-programme@etudes.local
   titre: 'Noms d''Allah : Al-Quddus, As-Salam, Al-Mu''min'
   categorie: Les Noms d'Allah
-  debut: 2026-12-07 20:00
-  fin: 2026-12-07 21:00
+  debut: 2026-12-07 22:30
+  fin: 2026-12-07 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20261214-programme@etudes.local
   titre: 'Tadabbur : Sourate Al-Ma''idah'
   categorie: Tadabbur Coran
-  debut: 2026-12-14 20:00
-  fin: 2026-12-14 21:00
+  debut: 2026-12-14 22:30
+  fin: 2026-12-14 23:30
   alerte: veille 18:00
-  dtstamp: 20260914T000000Z
+  dtstamp: 20261125T111838Z
 - id: evt-20261221-programme@etudes.local
   titre: 'Noms d''Allah : Al-Muhaymin, Al-''Aziz, Al-Jabbar, Al-Mutakabbir'
   categorie: Les Noms d'Allah
-  debut: 2026-12-21 20:00
-  fin: 2026-12-21 21:00
+  debut: 2026-12-21 22:30
+  fin: 2026-12-21 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20261228-programme@etudes.local
   titre: 'Les 10 Promis : ''Omar Ibn Al-Khattab'
   categorie: Les 10 Promis au paradis
-  debut: 2026-12-28 20:00
-  fin: 2026-12-28 21:00
+  debut: 2026-12-28 22:30
+  fin: 2026-12-28 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20270104-programme@etudes.local
   titre: 'Noms d''Allah : Al-Khaliq, Al-Bari'', Al-Musawwir'
   categorie: Les Noms d'Allah
-  debut: 2027-01-04 20:00
-  fin: 2027-01-04 21:00
+  debut: 2027-01-04 22:30
+  fin: 2027-01-04 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20270111-programme@etudes.local
   titre: 'Tadabbur : Sourate Al-An''am'
   categorie: Tadabbur Coran
-  debut: 2027-01-11 20:00
-  fin: 2027-01-11 21:00
+  debut: 2027-01-11 22:30
+  fin: 2027-01-11 23:30
   alerte: veille 18:00
-  dtstamp: 20260914T000000Z
+  dtstamp: 20261125T111838Z
 - id: evt-20270118-programme@etudes.local
   titre: 'Noms d''Allah : Al-Ghaffar, Al-Qahhar'
   categorie: Les Noms d'Allah
-  debut: 2027-01-18 20:00
-  fin: 2027-01-18 21:00
+  debut: 2027-01-18 22:30
+  fin: 2027-01-18 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20270125-programme@etudes.local
   titre: 'Les 10 Promis : ''Ali Ibn Abi Talib'
   categorie: Les 10 Promis au paradis
-  debut: 2027-01-25 20:00
-  fin: 2027-01-25 21:00
+  debut: 2027-01-25 22:30
+  fin: 2027-01-25 23:30
   alerte: veille 18:00
-  dtstamp: 20261125T110108Z
+  dtstamp: 20261125T111838Z
 - id: evt-20260924-jours-blancs@etudes.local
   titre: 'Jours Blancs : Jeûnez !'
   categorie: Jours Blancs
