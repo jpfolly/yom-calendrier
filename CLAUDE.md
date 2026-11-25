@@ -70,3 +70,9 @@ titre `Jours Blancs : Jeûnez !`, description `« Jeûner trois jours de chaque 
 jeûner toute l'année. » AL-BUKHARI`, `alerte: veille 15:00`,
 `alerte_texte: Rappel : Jours Blancs commencent demain`. Modèle : l'événement du 2026-09-24.
 Dates : https://www.guide-islam.com/fr/calendrier-jours-blancs/ (approximatives, 13-14-15 du mois hégirien).
+
+## Format des titres (obligatoire)
+`<Catégorie> : <sujet>`, ex. `Activité : Visionnage du Film NAZA`. Préfixes raccourcis d'origine :
+`Tadabbur` (Tadabbur Coran), `Noms d'Allah` (Les Noms d'Allah), `Les 10 Promis` (… au paradis),
+`Rencontre Mensuelle`. Exception : `COLLECTE SÉNÉGAL!` sans préfixe. Ajouter le préfixe aux
+demandes de la boîte qui ne l'ont pas.
